@@ -1,73 +1,176 @@
+body{
+margin:0;
+font-family:Arial;
+}
+
 .header { 
-    height: 60px;
-    padding: 20px;
-    background-color:#571f1f ;
+height: 60px;
+padding: 20px;
+background-color:#571f1f ;
 }
 
 .header h1 {
-    color: #ffeaea;
-    margin-top: 10px;
-    margin-left: 13px;
-    font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
-   font-style: normal;
+color: #ffeaea;
+margin-top: 10px;
+margin-left: 13px;
+font-family: "Archivo Black", sans-serif;
 }
 
 .header p{ 
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    margin-top: -70px;
-    font-size: 40px;
-    color: #ffe1e1
+text-align: center;
+margin-top: -70px;
+font-size: 40px;
+color: #ffe1e1
 }
 
 .header h2{
-  color: #6b4242;
-  font-size: 40px;
-  text-align: center;
-  margin-top: 90px;
+color: #6b4242;
+font-size: 40px;
+text-align: center;
+margin-top: 90px;
 }
 
 .productsContainer{ 
-  display: flex;
-  background-color: #6b4242;
-  height: 600px;
-  width: 80%;
-  border-radius: 20px;
-  justify-content: center;
 
-  position: absolute;
-  top: 300px;
-  left: 50%;
-  transform: translateX(-50%);
+display: flex;
+background-color: #6b4242;
+height: 600px;
+width: 80%;
+border-radius: 20px;
+justify-content: center;
 
-  opacity: 50%;
+position: absolute;
+top: 300px;
+left: 50%;
+transform: translateX(-50%);
+
+opacity: 0.9;
+
 }
 
+.productSession{
 
+display:flex;
+flex-wrap:wrap;
+
+gap:20px;
+
+justify-content:center;
+
+padding:30px;
+
+overflow:auto;
+
+}
+
+.product-card{
+
+background:#885f4c;
+
+color:white;
+
+width:220px;
+
+padding:15px;
+
+border-radius:12px;
+
+box-shadow:0px 4px 10px rgba(0,0,0,0.3);
+
+display:flex;
+flex-direction:column;
+
+}
+
+.product-title{
+
+font-size:18px;
+
+}
+
+.product-codigo,
+.product-quantidade{
+
+font-size:14px;
+
+}
+
+.product-price{
+
+font-size:16px;
+font-weight:bold;
+
+}
+
+.buttons{
+
+display:flex;
+justify-content:space-between;
+
+margin-top:10px;
+
+}
+
+.buttons button{
+
+border:none;
+
+background:#571f1f;
+
+color:white;
+
+padding:6px 10px;
+
+border-radius:6px;
+
+cursor:pointer;
+
+}
+
+.buttons button:hover{
+
+background:#3b1212;
+
+}
 
 .banner img{
-  position: relative;
-    width: 100%;
-    height: 800px;
-    object-fit: cover;
-    object-position: top;
-    opacity: 20%;
+
+position: relative;
+
+width: 100%;
+height: 800px;
+
+object-fit: cover;
+
+object-position: top;
+
+opacity: 0.2;
+
 }
 
 .btnRegister{
-    position: fixed;    
-    left: 20px;        
-    bottom: 20px;           
-    background-color: #885f4c;   
-    color: #fff;         
-    padding: 15px 25px;   
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none; 
-    border-radius: 100%;   
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
-    transition: all 0.2s ease;
-    z-index: 1000; 
-}
 
+position: fixed;
+
+left: 20px;
+bottom: 20px;
+
+background-color: #885f4c;
+
+color: #fff;
+
+padding: 15px 25px;
+
+font-size: 18px;
+
+font-weight: bold;
+
+text-decoration: none;
+
+border-radius: 100%;
+
+box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+
+z-index: 1000;
+
+}
