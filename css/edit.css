@@ -1,0 +1,89 @@
+.header { 
+    height: 60px;
+    padding: 20px;
+    background-color:#571f1f ;
+}
+
+.header h1 {
+    color: #ffeaea;
+    margin-top: 10px;
+    margin-left: 13px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header p{ 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: -70px;
+    font-size: 40px;
+    color: #ffe1e1
+}
+
+.header h2{
+  color: #6b4242;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 90px;
+}  
+
+.banner img{
+  position: relative;
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    object-position: top;
+    opacity: 20%;
+}
+
+.registerForm{
+    display: flex;
+    background-color: #6b4242;
+    height: 600px;
+    width: 500px;
+    border-radius: 20px;
+    justify-content: center;
+    border: 3px solid #b1705c;
+
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    opacity: 80%;
+}
+
+.boxInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 37px;
+}
+
+.boxInput label{
+    color: #fff;
+    font-size: 24px;
+}
+
+.boxInput input{
+    border-radius: 20px;
+    padding: 17px 100px;
+    color: #663737;
+    border: 2px #BFB5B8 solid;
+    border-bottom: 5px #999093bb solid;
+    text-align: center;
+}
+
+.btnEnviar {
+    background-color: #f18282;
+    border: 2px solid #633434;
+    color: #ffffff;
+    border-radius: 100px;
+    width: 320px;
+    height: 65px;
+    text-transform: uppercase;
+    display: block;
+    margin: 40px auto 0;
+    cursor:pointer;
+}
